@@ -34,7 +34,7 @@ class TestTest {
         Configuration.browser = "firefox";
         Configuration.browserSize = "874x769";
         Configuration.holdBrowserOpen = true;
-        open("http://localhost:9999");
+        open("http://127.0.0.1:9999");
     }
 
     @Test
